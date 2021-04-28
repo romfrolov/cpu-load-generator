@@ -1,0 +1,20 @@
+{
+  "name": "cpu-load-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_PATH=. node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romfrolov/cpu-load-generator.git"
+  },
+  "keywords": [],
+  "author": "Roman Frolov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romfrolov/cpu-load-generator/issues"
+  },
+  "homepage": "https://github.com/romfrolov/cpu-load-generator#readme"
+}
