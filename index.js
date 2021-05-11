@@ -36,7 +36,7 @@ function startWatching() {
 
 function blockCpuFor(ms) {
 	const now = new Date().getTime();
-	const result = 0;
+	let result = 0;
 
 	while (true) {
 		result += Math.random() * Math.random();
@@ -67,3 +67,5 @@ function start() {
 	blockCpuFor(desiredLoadFactor * SECOND);
 	setTimeout(start, (1 - desiredLoadFactor) * SECOND);
 }
+
+start();
